@@ -471,9 +471,10 @@ section {
 }
 
 .step-icon img {
-  width: 80px;
-  height: 80px;
-  filter: brightness(1.2);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  filter: brightness(1.5);
 }
 
 .step-title {
@@ -845,6 +846,18 @@ section {
   color: #94a3b8;
   margin-bottom: 20px;
 }
+
+.social-link{
+  margin: 0;
+  padding: 0;
+}
+
+.social-links img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
 
 .footer-links {
   list-style: none;
